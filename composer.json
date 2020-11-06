@@ -1,0 +1,39 @@
+{
+    "name": "goncharovei/split-list",
+    "type": "project",
+    "description": "Implementation of the logic for dividing a list into a given number of uniform columns",
+    "keywords": [
+        "split list",
+        "tdd",
+        "phpunit"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgeny Goncharov",
+            "email": "goncharovei@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "files": [
+            "src/SplitList.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
